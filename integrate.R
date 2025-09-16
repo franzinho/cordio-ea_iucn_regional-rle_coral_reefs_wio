@@ -72,10 +72,11 @@
 
   # create helper function for reviewing data
     quickview <- function(x, n = 3L) {head(data.frame(x), n = n)}
+  
 
   # point to working directory        ## -- need to adjust for local copy -- ##
-    # setwd(paste0("/Users/franzinho/Desktop/research/",
-                 # "cordio-ea_iucn_regional-rle_coral_reefs_wio"))
+    # setwd(paste0("",
+    # "cordio-ea_iucn_regional-rle_coral_reefs_wio"))
 
 
 ##

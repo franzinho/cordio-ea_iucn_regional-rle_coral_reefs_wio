@@ -222,7 +222,7 @@
              "criterion_b_restricted_geographic_distribution/")
 
   # create pdf
-    CairoPDF(paste0(figure_locale, "criterion_b1_extent_of_occurrence.pdf"), 7, 7)
+    pdf(paste0(figure_locale, "criterion_b1_extent_of_occurrence.pdf"), 7, 7)
 
   # open window
     # quartz("criterion b1 eoo", 7, 7)

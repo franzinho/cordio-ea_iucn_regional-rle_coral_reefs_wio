@@ -130,10 +130,10 @@
                     Shape_Area,
                     geometry)
 
- # ## -- visualise -- ##
+    # visualise -- ## ----
  #  # set palette
  #    c_palette <-
- #      wesanderson::wes_palette("Cavalcanti1", 15, "continuous")
+ #      wesanderson::wes_palette("Cavalcanti1", 15, "continuous") 
  #
  #  # plot
  #    regional_coral_reefs %>%
@@ -184,3 +184,5 @@
 
   # remove core objects
     rm(regional_coral_reefs)
+
+    
